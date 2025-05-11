@@ -1,5 +1,3 @@
-![](readme/solmemebot.png)
-
 **Solana PumpFun Bot** that listens to new Pump.Fun && Raydium pools and buys tokens for a fixed amount in WSOL.
 Depending on the speed of the RPC node, the purchase usually happens before the token is available on UI for swapping. This program took me two months to complete, and I hope it will be helpful to everyone looking to snipe tokens on Solana!
 
@@ -18,7 +16,7 @@ Note: Even for testing, besides using WSOL as the exchange token, it’s importa
 
 ## SETUP
 To run the script you need to:
-1. Download and extract the repository files: Use the command "git clone https://github.com/SolMemeLabs/solana-pumpfun-bot" or click the green "Code" button and select "Download ZIP".
+1. Download and extract the repository files: Use the command "git clone https://github.com/wajidjamali/solana-trading-bot-pumpfun" or click the green "Code" button and select "Download ZIP".
 2. Install the Node.js environment on your computer : https://nodejs.org/en
 3. The runtime environment should be a terminal or VSCode. Detailed steps are provided below, please read carefully.
 4. Convert some SOL into WSOL for trading. Note: Even if you only want to run the test for one hour, you still need to retain enough SOL, as gas fees are paid in SOL. For example (10 SOL) : (1 WSOL) : (QUOTE_AMOUNT=0.1) +-
@@ -121,9 +119,7 @@ It will buy only when new pool is open for trading. If you want to buy token tha
 
 The program has undergone multiple audits and tests, demonstrating strong profitability. If you have any suggestions, please contact:
 
-Discord: `@solana_bobby`
-
-Support this project: `HJHBJREtPxsdxiEXhik4VQyVbSyV4GScLPGuwWStqeSP`
+Twitter: `@abwajidjamali`
 
 ## DISCLAIMER
 
